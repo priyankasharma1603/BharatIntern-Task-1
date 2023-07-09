@@ -1,2 +1,3 @@
-# BharatIntern-Task-1
-Content Management Tool : You can use the full stack development items and other drag-and-drop interfaces to create a web page that helps you add text, images, videos, and other elements required to create a blog.
+# content_management_tool                                                
+This is task 1 of my Internship in Bharat intern.                                    
+I use HTML, CSS, and JavaScript For Front-end Development and Visual Studio Code as my IDE.

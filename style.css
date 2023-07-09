@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(243, 243, 112);
+    margin: 0;
+    padding: 60px;
+    /* background-image: linear-gradient(to bottom right, yellow ,red ); */
+  
+}
+.cms{
+    text-shadow: 4px 1px 10px #ff0606, 0 0 5px #0000FF;
+    color: black;
+}
+
+.top img{
+margin-left: 75px;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-color{
+    color: rgb(255, 27, 84);
+    font-weight: 800;
+    
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+}
+
+.border-color{
+    border: 2px solid rgb(0, 0, 0);
+}
+@media screen and (min-width:768px) {
+    .top-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin-right: 30px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: grey;
+}
+
+.input{
+    width: 100%;
+    padding: 6px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    font-size: 16px;
+    background-color: rgb(58, 58, 143);
+    color: white;
+    border-radius: 10px;
+    border: 0px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.data-container {
+    max-height: 300px;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
